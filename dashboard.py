@@ -5,10 +5,10 @@ import plotly.express as px
 bar_col, pie_col = st.columns(2)  # add columns
 
 # Read in datasets - boy & girl names England & Wales 2021
-all_nms_grls = pd.read_excel(r"../Streamlit_app/data/2021girlsnames.xlsx", 
+all_nms_grls = pd.read_excel("C:\Users\sfell\OneDrive\Streamlit_app\data\2021girlsnames.xlsx", 
                 sheet_name="6", skiprows=6)
    
-all_nms_boys = pd.read_excel(r"../Streamlit_app/data/2021boysnamesupdated1.xlsx", 
+all_nms_boys = pd.read_excel("C:\Users\sfell\OneDrive\Streamlit_app\data\2021boysnamesupdated1.xlsx", 
                 sheet_name="6", skiprows=6)
 
 # Concat datasets & createing sort/filters for visualisations                          
